@@ -1,0 +1,196 @@
+<!--Project-10: Interior Design Website-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <script src="index.js"></script>
+    <title>P10: INTERIOR DESIGN</title>
+  </head>
+  <body>
+    <!--Side Bar: Navigation panels-->
+    <div id="sidebar">
+      <div id="logo">company logo</div>
+      <div id="tabs">
+        <a href="#showcase"><div class="links">Showcase</div></a>
+        <a href="#services"><div class="links">Services</div></a>
+        <a href="#designer-panel"><div class="links">Designers</div></a>
+        <a href="#packages"><div class="links">Packages</div></a>
+        <a href="#contact"><div class="links">Contact</div></a>
+      </div>
+    </div>
+    <!--Navbar: navigation panel for smaller screens (RWD)-->
+    <div id="navbar">
+        <a href="#showcase"><div class="links">Showcase</div></a>
+        <a href="#services"><div class="links">Services</div></a>
+        <a href="#designer-panel"><div class="links">Designers</div></a>
+        <a href="#packages"><div class="links">Packages</div></a>
+        <a href="#contact"><div class="links">Contact</div></a>
+    </div>
+
+    <!--Right Panel: Main content-->
+    <div id="main-content">
+      <h1 id="int-des">Interior Design</h1>
+      <!--Showcase section: interior design image gallery-->
+      <div id="showcase">
+        <h2 id="showcase-head">Showcase</h2>
+        <div id="img-panel">
+          <div class="showcase-img">
+            <img src="images/interior5.JPG" alt="interior-img" />
+          </div>
+          <div class="showcase-img">
+            <img src="images/interior4.JPG" alt="interior-img" />
+          </div>
+          <div class="showcase-img">
+            <img src="images/interior6.JPG" alt="interior-img" />
+          </div>
+          <div class="showcase-img">
+            <img src="images/interior3.JPG" alt="interior-img" />
+          </div>
+        </div>
+      </div>
+
+      <!--Services section: text-->
+      <div id="services">
+        <h1 id="serv-head">Services</h1>
+        <article id="serv-desc">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis
+          ducimus et totam! Et voluptas repellendus voluptate labore, voluptates
+          sint? Aliquam iure nostrum officiis consequatur ad reprehenderit
+          libero dolorem odit similique. Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Commodi, odit repudiandae adipisci quidem maxime
+          vel, omnis ut provident iure ad numquam. A eaque ex assumenda totam
+          dolorum et reprehenderit commodi. Lorem ipsum dolor sit amet,
+          consectetur adipisicing elit. Modi harum, nulla, nobis, temporibus
+          officia sunt quam obcaecati eligendi expedita quidem debitis quibusdam
+          adipisci maiores autem cumque consequuntur eos vero ea?
+        </article>
+      </div>
+
+      <!--Designers section: profile cards-->
+      <div id="designer-panel">
+        <h1 id="desig-head">Designers</h1>
+        <p id="desig-subhead">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
+        <article id="desig-desc">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error,
+          suscipit beatae laborum ab a labore fugit reprehenderit blanditiis
+          itaque placeat ea quod odit amet ut, magnam optio perferendis maiores
+          vero. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint
+          obcaecati animi labore assumenda nobis error maiores, soluta qui
+          pariatur, accusamus repellendus! Quidem reprehenderit, hic nam
+          delectus magni quod saepe at!
+        </article>
+        <p id="desig-para">Meet our talented designers.</p>
+
+        <!--profile card panel for the members-->
+        <div id="card-panel">
+          <div class="profile-card">
+            <img src="images/designer1.JPG" alt="photo" />
+            <h3>Claire Jeens</h3>
+            <h4>Founder & CEO</h4>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid
+              tenetur doloribus dignissimos? Accusantium, optio eaque
+              voluptatibus adipisci.
+            </p>
+          </div>
+          <div class="profile-card">
+            <img src="images/designer2.jpg" alt="photo" />
+            <h3>Yashi Mathew</h3>
+            <h4>Chief Designer</h4>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid
+              tenetur doloribus dignissimos? Accusantium, optio eaque
+              voluptatibus adipisci.
+            </p>
+          </div>
+          <div class="profile-card">
+            <img src="images/designer3.jpg" alt="photo" />
+            <h3>Josh Karg</h3>
+            <h4>Head Architect</h4>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid
+              tenetur doloribus dignissimos? Accusantium, optio eaque
+              voluptatibus adipisci.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!--Packages section: Pricing chart-->
+      <div id="packages">
+        <h1 id="pkg-head">Packages</h1>
+        <p id="pkg-desc">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
+          perferendis dolor ullam aut, culpa eligendi reprehenderit ab
+          necessitatibus ipsum. Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Esse, at explicabo. Reprehenderit, saepe. Distinctio
+          saepe non tempore doloribus tempora obcaecati laboriosam dolor magni,
+          esse reprehenderit, asperiores quae, vel beatae aperiam.
+        </p>
+        <div id="pricing-panel">
+          <div id="basic-pkg" class="price-card">
+            <p id="price-card-name">BASIC</p>
+            <div id="features-list">
+              <ul>
+                <li>Floor Planning</li>
+                <li>10-hour support</li>
+                <li>20% Furniture discounts</li>
+                <li>Lightings not included</li>
+              </ul>
+            </div>
+            <p id="price-quote">$199 <br />per room</p>
+            <div id="buy-btn">subcribe</div>
+          </div>
+          <div id="pro-pkg" class="price-card">
+            <p id="price-card-name">PRO</p>
+            <div id="features-list">
+              <ul>
+                <li>Floor Planning</li>
+                <li>50-hour support</li>
+                <li>50% Furniture discounts</li>
+                <li>Lightings included</li>
+              </ul>
+            </div>
+            <p id="price-quote">$399 <br />per room</p>
+            <div id="buy-btn">subcribe</div>
+          </div>
+        </div>
+      </div>
+
+      <!--Contact Section: Input Form-->
+      <div id="contact">
+        <h1>Contact</h1>
+        <p>
+          Want us to decorate your home? Fill in the details and let's meet! We
+          love meeting new people :)
+        </p>
+        <form action="#">
+          <label for="#username"
+            >Name <br />
+            <input type="text" /> </label
+          ><br />
+          <label for="#userEmail"
+            >Email <br />
+            <input type="email" /> </label
+          ><br />
+          <label for="#userMsg"
+            >Message <br />
+            <input type="text" />
+          </label>
+          <button id="submit-btn">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
